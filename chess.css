@@ -1,0 +1,126 @@
+/*
+  chess.css
+  Joshua Marshall Moore
+  joshua_marshall_moore@yahoo.com
+
+  January 17, 2016
+  
+  Sources:
+  http://www.456bereastreet.com/archive/201012/how_to_create_a_3-column_layout_with_css/  
+  http://quirksmode.org/css/css2/columns.html
+  https://www.w3.org/Style/Examples/007/evenodd.en.html
+  a css thing on table
+  a css thing on rowspans
+  http://stackoverflow.com/questions/13526712/make-div-draggable-using-css
+  http://www.computerhope.com/issues/ch001655.htm
+  http
+  
+*/
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-image: url('art/background/cereal-flipped.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: gray;
+}
+
+#board {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* these are not yet dynamic */
+
+th {
+  color: white;
+}
+
+/* td is equivalent to td.pieces (there is no td.field). */
+td {
+  border: 0px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+table {
+  border: 0px;
+}
+
+tr:nth-child(odd)>td:nth-child(odd):not(.pieces) {
+  background-image: url('art/field/fire.png');
+}
+
+tr:nth-child(odd)>td:nth-child(even):not(.pieces) {
+  background-image: url('art/field/wood45.png');
+}
+
+tr:nth-child(even)>td:nth-child(even):not(.pieces) {
+  background-image: url('art/field/fire.png');
+}
+
+tr:nth-child(even)>td:nth-child(odd):not(.pieces) {
+  background-image: url('art/field/wood45.png');
+}
+
+td#chat {
+  background-image: none;
+}
+
+.piece {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+td.pieces {
+  width: 200px;
+  height: 200px;
+}
+
+.field {
+  width: 52px;
+  height: 52px;
+  margin: 0;
+  padding: 2px;
+  border: 0;
+}
+
+/*
+#chat>#window {
+  width: 100%;
+  height: 390px;
+}
+
+#chat>#entry {
+  width: 100%;
+  height: 10px;
+}
+*/
+
+
+td.pieces {
+  width: 220px;
+  height: 50px;
+  flex-flow: row;
+}
+
+td.pieces#white {
+  border: 1px solid white;
+  background-color: rgba(127, 127, 127, 0.50);
+}
+
+td.pieces#black {
+  border: 1px solid black;
+  background-color: rgba(127, 127, 127, 0.50);
+}
+
