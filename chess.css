@@ -53,19 +53,19 @@ table {
 }
 
 tr:nth-child(odd)>td:nth-child(odd):not(.pieces) {
-  background-image: url('art/field/fire.png');
+  background-image: url('art/field/red.png');
 }
 
 tr:nth-child(odd)>td:nth-child(even):not(.pieces) {
-  background-image: url('art/field/wood45.png');
+  background-image: url('art/field/brown.png');
 }
 
 tr:nth-child(even)>td:nth-child(even):not(.pieces) {
-  background-image: url('art/field/fire.png');
+  background-image: url('art/field/red.png');
 }
 
 tr:nth-child(even)>td:nth-child(odd):not(.pieces) {
-  background-image: url('art/field/wood45.png');
+  background-image: url('art/field/brown.png');
 }
 
 td#chat {
