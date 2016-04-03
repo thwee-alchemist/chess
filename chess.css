@@ -52,6 +52,7 @@ table {
   border: 0px;
 }
 
+
 tr:nth-child(odd)>td:nth-child(odd):not(#pieces) {
   background-image: url('art/field/red.png');
 }
