@@ -45,4 +45,32 @@ $(function(){
       dy: dy
     });
   };
+
+
 });
+
+var setup_black = function(){
+  var fields = $('tbody').children().not('.pieces').get();
+  fields = fields.reverse();
+  $('tbody').append(fields);
+
+  pieces = $('#pieces').get();
+  $('#pieces').remove();
+  $('tr').first().append(pieces)
+};
+
+var setup = function(){
+  var odd_fields_selector = 'tr:nth-child(odd)>td:nth-child(odd):not(.pieces)';
+  var even_fields_selector = 'tr:nth-child(odd)>td:nth-child(even):not(.pieces)';
+  
+};
+
+
+
+var setup_white = function(){
+  // leave the board as it is, sit back and listen  
+};
+
+
+var odd_fields_selector = 'tr:nth-child(odd)>td:nth-child(odd):not(.pieces)';
+var even_fields_selector = 'tr:nth-child(odd)>td:nth-child(even):not(.pieces)';

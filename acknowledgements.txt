@@ -1,0 +1,16 @@
+thanks: 
+
+http://www.sitepoint.com/css-sizing-absolute-position/
+http://jsfiddle.net/awsFU/
+http://stackoverflow.com/questions/18031563/drag-and-insert-div-into-another-div
+http://www.elated.com/articles/drag-and-drop-with-jquery-your-essential-guide/
+https://jqueryui.com/droppable/
+http://stackoverflow.com/questions/5562853/jquery-ui-get-id-of-droppable-element-when-dropped-an-item
+http://stackoverflow.com/questions/16848165/programmatically-drag-and-drop-element-onto-another-element
+http://wsgi.tutorial.codepoint.net/
+http://lucumr.pocoo.org/2007/5/21/getting-started-with-wsgi/
+http://stackoverflow.com/questions/6219152/jquery-reverse-an-order
+http://stackoverflow.com/questions/2150108/efficient-way-to-shift-a-list-in-python
+http://lucumr.pocoo.org/2007/5/21/getting-started-with-wsgi/
+http://www.xml.com/pub/a/2006/09/27/introducing-wsgi-pythons-secret-web-weapon.html
+http://www.xml.com/pub/a/2006/10/04/introducing-wsgi-pythons-secret-web-weapon-part-two.html
