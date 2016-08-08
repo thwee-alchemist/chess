@@ -6,4 +6,4 @@ A Chess Board For The Browser And Two People. It's not done yet. The server code
 
 # Usage: 
 Open the above link and drag the pieces into position. They will lock over the board, but no other restriction is applied. 
-Alternatively, download page might work. 
+Save page as for ghost chess.
